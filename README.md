@@ -21,7 +21,7 @@ $ git remote -v
  origin https://github.com/YOUR_USERNAME/YOUR_FORK.git (push)
  upstream https://github.com/ORIGINAL_OWNER/ORIGINAL_REPOSITORY.git (fetch)
  upstream https://github.com/ORIGINAL_OWNER/ORIGINAL_REPOSITORY.git (push)
- 
+
 Step 5.
 Fetch the branches and their respective commits from the upstream repository. Commits to master will be stored in a local branch, upstream/master.
 $ git fetch upstream
@@ -37,8 +37,7 @@ Check out your fork’s local master branch.
 $ git checkout master
  Switched to branch ‘master’
 
-Step 7.
-Merge the changes from upstream/master into your local master branch. This brings your fork’s master branch into sync with the upstream repository, without losing your local changes.
+Step 7. Merge the changes from upstream/master into your local master branch. This brings your fork’s master branch into sync with the upstream repository, without losing your local changes.
 $ git merge upstream/master
  Updating a422352..5fdff0f
  Fast-forward
@@ -49,7 +48,13 @@ $ git merge upstream/master
  delete mode 100644 README
  create mode 100644 README.md
 
-Step 8.
+Step 8. Adding a file to a staging
+$ git add README.md
+
+Step 10. commiting chnages
+$ git commit
+
+Step 10.
 Push your changes
 $ git push
 

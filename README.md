@@ -50,11 +50,13 @@ $ git merge upstream/master
 
 Step 8. Adding a file to a staging
 $ git add README.md
+P.S. If you want all files to be added
+$ git commit -A
 
 Step 10. commiting chnages
 $ git commit
 
-Step 10.
+Step 11.
 Push your changes
 $ git push
 

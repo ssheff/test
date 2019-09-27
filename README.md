@@ -53,10 +53,10 @@ $ git add README.md
 P.S. If you want all files to be added
 $ git commit -A
 
-Step 10. commiting chnages
+Step 9. commiting chnages
 $ git commit
 
-Step 11.
+Step 10.
 Push your changes
 $ git push
 

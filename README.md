@@ -9,14 +9,17 @@ $ git remote -v
 origin https://github.com/YOUR_USERNAME/YOUR_FORK.git (fetch)
 origin https://github.com/YOUR_USERNAME/YOUR_FORK.git (push)
 
+
 Step 3.
 Specify a new remote upstream repository that will be synced with the fork.
+
 $ git remote add upstream https://github.com/ORIGINAL_OWNER/ORIGINAL_REPOSITORY.git
 
 P.S. If wrong repositoiry added, it can be deleted by using:
-$ git remote rm upstream
 
+$ git remote rm upstream
 $ git remote -v
+
  origin https://github.com/YOUR_USERNAME/YOUR_FORK.git (fetch)
  origin https://github.com/YOUR_USERNAME/YOUR_FORK.git (push)
  upstream https://github.com/ORIGINAL_OWNER/ORIGINAL_REPOSITORY.git (fetch)
